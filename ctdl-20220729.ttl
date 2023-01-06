@@ -53,6 +53,7 @@
 ceterms:AccreditAction a rdfs:Class ;
 	rdfs:label "Accredit Action"@en-US ;
 	rdfs:comment "Action by an independent, neutral, and authoritative agent that certifies an entity as meeting a prescribed set of standards."@en-US ;
+	skos:scopeNote "testy"@en-US ;
 	dct:description "Since an instance of ceterms:CredentialingAction is a claim that a certain agent has taken the action being described, creation of such a ceterms:CredentialingAction should be reserved to the agent of that action."@en-US ;
 	vs:term_status vs:stable ;
 	meta:changeHistory <http://credreg.net/ctdl/termhistory/ceterms/AccreditAction/json> ;
